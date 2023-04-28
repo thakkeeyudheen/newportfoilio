@@ -178,7 +178,7 @@ nav .menu ul li a:hover{
 .intro{
     width: 100%;
     height:auto;
-     background:hsla(201,-100%, 6%, 0.6);
+    /* background:hsla(201,-100%, 6%, 0.6); /*
 }
 body
 {
