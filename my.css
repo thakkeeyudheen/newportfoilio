@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Michroma&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#mainof{
+    background-color:hsla(201,-100%, 6%, 0.6) ;
+}
+
+.container
+{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+nav{
+    background-color:hsla(201,-100%, 6%, 0.6);
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    margin-top: px;
+   
+}
+nav .menu ul{ 
+
+    
+    list-style-type: none;
+    display: flex;
+    z-index: 1;
+   
+}
+nav .menu ul li{ 
+
+letter-spacing: 2px;
+padding: 7px 0px 4px 40px;
+
+
+   
+}
+#check{
+    display: none;
+}
+nav .menu label{
+    display: none;
+}
+.menu{
+    padding-top: 10px;
+    margin-right: 130px;
+}
+nav .logo h1{
+    padding: 9px 0px 0px 41px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0px;
+    font-family: "Michroma";
+    font-size: 33px;
+   
+
+}
+nav .menu ul li a{
+    text-decoration: none ;
+    color: white;
+    font-family: "Michroma";
+    font-size: 10px;
+    font-weight: 400;
+   
+}
+nav .logo h1:hover{
+    padding: 2px 0px 0px 41px;
+    color:  rgb(169, 169, 170);
+    font-weight: 800;
+    letter-spacing: 2px;
+    transition: all .25s;
+    
+}
+nav .menu ul li a:hover{
+
+   
+    
+   
+    font-size: 10px;
+    
+    background: #a7a7a8;
+    border-radius: 30px;
+    border: solid  #a7a7a8 6px;
+    color:black;
+    transition: all .25s;
+}
+
+@media (max-width:800px){
+    nav .menu ul{
+        position: fixed;
+        left: 0%;
+        top: -100%;
+        display: block;
+        background:hsla(201,-100%, 6%, 0.6);
+        width: 100%;
+       text-align: center;
+       transition: all 1s;
+       border-radius: 10px;
+       z-index:-1;
+       
+
+       
+        
+
+    }
+    nav .menu ul li a{
+        color:white;
+        font-size: 13px;
+        font-weight: 500;
+
+    }
+    nav .menu ul li a:hover{
+        color:blue;
+        font-size: 15px;
+        background: none;
+        border: none;
+        font-weight: 700;
+        transition: all .25s;
+        text-shadow: 2px 2px rgb(19, 18, 18);
+        letter-spacing: 0px;
+
+    }
+    nav .menu label i{
+        color: white;
+        font-size: 25px;
+              
+       
+        
+    }
+    nav .menu{
+         padding-top: 14px;
+         margin-right: 30px;
+    }
+    #check:checked ~ ul{
+        
+        top: 15vh;
+        transition:all 1s ;
+        
+        
+    }
+    nav .menu label{
+        display:block;
+
+    }
+    #check{
+        display: none;
+    }
+    #check:checked ~  label i::before{
+        content:'\f410';
+        
+        
+    }
+}
+
+#img
+{
+     width: 50vh;
+    height: 55vh;
+    /* border:grey solid 16px; */
+    border-radius: 20px;
+    margin-left: 15vh;
+}
+/* .section-1{
+    height: 100vh;
+
+    background-image: url("https://images.pexels.com/photos/764880/pexels-photo-764880.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+
+} */
+.intro{
+    width: 100%;
+    height:auto;
+}
+body
+{
+    height: 100vh;
+
+    background-image: url("https://c1.wallpaperflare.com/preview/260/237/126/59687788344d1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.align
+{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.align1{
+    margin-top: 130px;
+}
+.container .thah1{
+    color:white;
+    font-size: 24px;
+   
+    font-family: "Michroma";
+    -webkit-text-stroke:white 2px;
+
+}
+.container h4{
+    font-family: "Michroma";
+    color:white;
+    font-weight: 500;
+    text-align: center;
+   
+    display: inline;
+    
+    font-size: 14px;
+}
+.li{
+    border: #0734a0  solid 1px;
+    border-radius: 40px;
+    height: fit-content;
+    width: fit-content;
+
+}
+/* .row
+{
+    height: 400px;
+} */
+section{
+    /* background:hsla(201,-100%, 6%, 0.6); */
+    height: 500px;
+    width:100%;
+    text-align: center;
+    color:white;
+    margin-top: 325px;
+}
+.h121{
+    text-align: center;
+    font-family: "Michroma";
+    font-size: 27px;
+}
+.h12{
+    font-size: 20px;
+    font-family: "Michroma";
+}
+.row13{
+    display: flex;
+    justify-content: center;
+    /* background-color:hsla(201,-100%, 6%, 0.6) ; */
+}
+.cardimg1
+{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/42f6dd08-d478-46e4-a4a8-e3a93aa7e085/IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:rgb(255, 255, 255) ;
+    
+
+}
+.cardimg2
+{
+    background-image: url(https://c0.wallpaperflare.com/preview/132/27/808/5be98eeb96ff6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:rgb(0, 0, 0);
+    
+
+}
+.cardimg3
+{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/04175ff1b3bf5f11a20c0152/a9dcc2d3-077b-4cbf-35f1-05a7ca2b6438.jpg?version=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:rgb(0, 0, 0);
+     
+
+}
+.btn
+{
+    margin-top: 50px;
+
+}
+.btn:hover
+{
+   background-color: black;
+
+   border: blue solid 2px;
+
+}
+.section h5,p{
+    font-family: "Michroma";
+}
+.card{
+    height: 250px;
+
+}
+.section
+{
+    width: 100%;
+    
+    background-color:
+    margin-top: -22px;
+    
+    
+    
+}
+.parent
+{
+    background-color: red;
+    width: 100%;
+   margin: 0 auto;
+}
+.card{
+    border:grey solid 1px;
+}
+.section h3{
+    color: aliceblue;
+    font-family: "Michroma";
+    text-align: center;
+    padding-top: 30px;
+
+
+}
+footer{
+    width: 100%;
+
+    text-align: center;
+    /* background-color:hsla(201,-100%, 6%, 0.6); */
+    margin-top: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 2px 7px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container1{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: -16px ;
+    padding: 10px;
+} 
+footer span{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
