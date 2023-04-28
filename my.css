@@ -228,7 +228,7 @@ body
     height: 400px;
 } */
 section{
-    background:hsla(201,-100%, 6%, 0.6);
+/*     background:hsla(201,-100%, 6%, 0.6); */
    min-height: 500px;
     height: auto;
     width:100%;
@@ -303,7 +303,7 @@ section{
 {
     width: 100%;
     
-     background:hsla(201,-100%, 6%, 0.6);
+/*      background:hsla(201,-100%, 6%, 0.6); */
     margin-top: -22px;
     
     
@@ -330,7 +330,7 @@ footer{
     width: 100%;
 
     text-align: center;
-    background-color:hsla(201,-100%, 6%, 0.6);
+/*     background-color:hsla(201,-100%, 6%, 0.6); */
     margin-top: 10px;
 }
 footer a{
