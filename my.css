@@ -228,7 +228,8 @@ body
 } */
 section{
     /* background:hsla(201,-100%, 6%, 0.6); */
-    height: 500px;
+   min-height: 500px;
+    height: auto;
     width:100%;
     text-align: center;
     color:white;
